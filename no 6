@@ -1,0 +1,30 @@
+public class Aritmatika {
+    public void hitungPenjumlahan(int a, int b) {
+        int nilai = a + b;
+        System.out.println("Nilai penjumlahan adalah: " + nilai);
+    }
+
+    public static void hitungPerkalian(int a, int b) {
+        int nilai = a * b;
+        System.out.println("Nilai perkalian adalah: " + nilai);
+    }
+
+    public static void hitungPengurangan(int a, int b) {
+        int nilai = a - b;
+        System.out.println("Nilai pengurangan adalah: " + nilai);
+    }
+
+    // Method non-static untuk menghitung pembagian dengan parameter String
+    public double hitungPembagian(String nil, String nil2) {
+        double angka1 = Double.parseDouble(nil); // Konversi String ke double
+        double angka2 = Double.parseDouble(nil2);
+
+        if (angka2 == 0) { // Cek pembagian dengan nol
+            System.out.println("Error: Pembagian dengan nol tidak diperbolehkan!");
+            return 0;
+        }
+
+        return angka1 / angka2;
+    }
+}
+
