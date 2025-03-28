@@ -1,0 +1,3 @@
+Jika dalam method *hitungPerkalian()* ditambahkan *hitungPenjumlahan(a, b)*, maka akan error.  
+Ini karena *hitungPerkalian()* adalah method *static*, sedangkan *hitungPenjumlahan()* adalah *non-static*. 
+Method non-static tidak bisa langsung dipanggil dalam method static tanpa membuat objek dari kelasnya dulu.
