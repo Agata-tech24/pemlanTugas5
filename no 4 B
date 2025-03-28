@@ -1,2 +1,0 @@
-Jika menambahkan keyword `static` pada variabel `maxLoad`, maka `maxLoad` menjadi milik kelas, bukan objek. Artinya, semua objek Vehicle akan berbagi nilai `maxLoad` yang sama. 
-Nilai `maxLoad` hanya bisa diubah sekali untuk semua objek, dan bisa diakses tanpa harus membuat objek, hanya dengan `Vehicle.maxLoad`.
