@@ -1,0 +1,3 @@
+Jika dalam method *hitungPenjumlahan()* ditambahkan pemanggilan *hitungPerkalian(a, b)*, maka setiap kali *hitungPenjumlahan()* dijalankan, method *hitungPerkalian()* juga akan ikut dieksekusi. 
+Karena *hitungPerkalian()* adalah method *static*, maka bisa langsung dipanggil tanpa perlu membuat objek. 
+Akibatnya, selain menampilkan hasil penjumlahan, program juga akan menampilkan hasil perkalian, meskipun perkalian tidak diminta secara langsung.
