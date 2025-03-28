@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class MainAritmatika {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        // Input untuk hitungPengurangan
+        System.out.print("Masukkan nilai 1: ");
+        int nil1 = in.nextInt();
+        System.out.print("Masukkan nilai 2: ");
+        int nil2 = in.nextInt();
+        Aritmatika.hitungPengurangan(nil1, nil2);
+
+        // Input untuk hitungPerkalian
+        System.out.print("Masukkan nilai 1: ");
+        nil1 = in.nextInt();
+        System.out.print("Masukkan nilai 2: ");
+        nil2 = in.nextInt();
+        Aritmatika.hitungPerkalian(nil1, nil2);
+
+        // Input untuk hitungPenjumlahan
+        System.out.print("Masukkan nilai 1: ");
+        int value1 = in.nextInt();
+        System.out.print("Masukkan nilai 2: ");
+        int value2 = in.nextInt();
+        Aritmatika a = new Aritmatika();
+        a.hitungPenjumlahan(value1, value2);
+
+        // Input untuk hitungPembagian
+        System.out.print("Masukkan nilai pembilang: ");
+        String pembilang = in.next();
+        System.out.print("Masukkan nilai penyebut: ");
+        String penyebut = in.next();
+
+        double hasil = a.hitungPembagian(pembilang, penyebut);
+        System.out.println("Nilai pembagian adalah: " + hasil);
+
+        in.close();
+    }
+}
