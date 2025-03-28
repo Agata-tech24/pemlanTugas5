@@ -1,0 +1,15 @@
+A 1. Static variabel adalah variabel yang nilainya tetap ada selama program berjalan dan bisa digunakan bersama oleh semua objek dalam satu kelas.
+~ Fungsi Static Variabel
+  •	Berbagi data antar objek → Semua objek bisa mengakses dan mengubah nilai yang sama.
+  •	Menghemat memori → Hanya dibuat sekali, tidak perlu disimpan di setiap objek.
+  •	Menjaga nilai tetap ada → Tidak hilang meskipun objek dihapus.
+~ Kapan Menggunakan Static Variabel?
+  •	Jika suatu nilai harus sama untuk semua objek (misalnya jumlah total objek yang dibuat).
+  •	Jika ingin menyimpan data yang bisa diakses tanpa membuat objek (misalnya konstanta atau konfigurasi).
+
+2. Main method harus dituliskan dengan static karena program dapat langsung menjalankannya tanpa perlu membuat objek terlebih dahulu. 
+Jika main method tidak static, maka Java harus membuat objek dari kelas tersebut sebelum bisa menjalankannya, padahal saat program dimulai, objek belum ada. 
+Dengan menjadikannya static, JVM bisa langsung mengeksekusi main method sebagai awal program tanpa harus membuat instance kelas. 
+Selain itu, penggunaan static pada main method juga membantu menghemat memori karena tidak perlu membuat objek hanya untuk menjalankan program. 
+
+
