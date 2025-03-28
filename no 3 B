@@ -1,3 +1,0 @@
-Jika mengubah variabel `load` menjadi konstanta dengan menambahkan kata kunci `final`, maka nilai dari variabel tersebut tidak bisa diubah setelah pertama kali diinisialisasi. 
-Biasanya, variabel `load` akan bertambah setiap kali kita menambahkan beban menggunakan metode `addBox()`. Namun, jika `load` diubah menjadi `final`, maka akan error ketika mencoba mengubah nilainya, karena konstanta hanya bisa diberikan nilai satu kali dan tidak bisa diubah lagi setelah itu. 
-Jadi, program akan gagal dijalankan karena Anda mencoba mengubah nilai variabel yang sudah ditetapkan sebagai konstanta.
