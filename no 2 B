@@ -1,0 +1,4 @@
+Jika menghapus separator “/” pada baris 4-6 di file Vehicle.java dan pada baris 6 di file TestVehicle.java, maka kode yang sebelumnya dari komentar akan menjadi aktif. 
+
+~ Di Vehicle.java, ada konstruktor yang sebelumnya di-comment dengan tanda `//`. Jika tanda komentar dihapus, maka konstruktor tersebut akan menjadi kode yang aktif, tetapi karena konstruktor itu private, maka tidak bisa menggunakannya di luar kelas tersebut, yang akan menyebabkan error.
+~ Di TestVehicle.java, ada baris kode yang mencoba membuat objek `Vehicle1` menggunakan konstruktor yang tidak ada. Jika komentar dihapus, program akan mencoba menjalankan kode ini, tetapi karena Vehicle1 tidak ada, ini akan menyebabkan error.
